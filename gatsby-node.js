@@ -44,12 +44,11 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
 exports.onCreateNode = async ({ node, boundActionCreators, cache, store }) => {
   const { createNode } = boundActionCreators
-  let fileNode
 
   if (node.internal && node.internal.type === `MoltinProduct`) {
     const mainImageHref = get(node, 'includedData.main_image.link.href')
 
-    fileNode = await createRemoteFileNode({
+    const fileNode = await createRemoteFileNode({
       url: mainImageHref,
       store,
       cache,

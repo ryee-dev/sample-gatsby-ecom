@@ -42,7 +42,6 @@ export const pageQuery = graphql`
       edges {
         node {
           originalId
-          name
           description
           meta {
             display_price {
@@ -68,13 +67,7 @@ export const pageQuery = graphql`
             }
           }
           slug
-          material
-          max_watt
-          bulb_qty
-          bulb
-          new
           sku
-          finish
         }
       }
     }

@@ -6,14 +6,7 @@ import Link from 'gatsby-link'
 const mapProductsToItems = products =>
   products.map(
     ({
-      node: {
-        name,
-        originalId,
-        meta,
-        mainImage,
-        background_colour,
-        new: isNew,
-      },
+      node: { name, originalId, meta, mainImage, backgroundColor, new: isNew },
     }) => {
       const price = meta.display_price.with_tax.formatted || null
       return {
@@ -31,7 +24,7 @@ const mapProductsToItems = products =>
               sizes={mainImage.childImageSharp.sizes}
               alt={name}
               style={{
-                background: `${background_colour || '#fafafa'}`,
+                background: `${backgroundColor || '#fafafa'}`,
               }}
             />
           </Image>
