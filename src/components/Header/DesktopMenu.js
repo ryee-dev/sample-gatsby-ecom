@@ -33,7 +33,7 @@ class DesktopMenu extends Component {
             header
           >
             <Logo />
-            Starter Store
+            Meow Store
           </Menu.Item>
           {token ? (
             <Menu.Menu position="right">

@@ -1,15 +1,10 @@
 import React from 'react'
 import { Image } from 'semantic-ui-react'
 
-import moltin from '../../images/moltin-light-hex.svg.svg'
+import pawSVG from '../../images/paw.svg'
 
 const Logo = () => (
-  <Image
-    size="mini"
-    src={moltin}
-    style={{ marginRight: '1.5em' }}
-    alt="I love Lamp"
-  />
+  <Image size="mini" src={pawSVG} style={{ marginRight: '1.5em' }} alt="Paw" />
 )
 
 export default Logo

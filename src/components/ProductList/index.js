@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, Image } from 'semantic-ui-react'
 import Img from 'gatsby-image'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
 
 const mapProductsToItems = products =>
   products.map(({ node: { name, originalId, meta, mainImage } }) => {
@@ -11,7 +12,7 @@ const mapProductsToItems = products =>
       to: `/product/${originalId}/`,
       childKey: originalId,
       image: (
-        <Image>
+        <Image style={{ padding: '1rem' }}>
           <Img sizes={mainImage.childImageSharp.sizes} alt={name} />
         </Image>
       ),
@@ -21,5 +22,9 @@ const mapProductsToItems = products =>
   })
 
 export default ({ products }) => (
-  <Card.Group items={mapProductsToItems(products)} itemsPerRow={2} stackable />
+  <Card.Group
+    items={mapProductsToItems(products)}
+    itemsPerRow={3}
+    stackable
+  />
 )
