@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d608ce05-b065-46b3-b63c-06df4f4547c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductAttributes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductAttributes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProductList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/ProductPage.js" afterDir="false" />
@@ -30,47 +23,99 @@
     <session id="-111341421">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="babelrc" value="1" />
           <entry key="eslintrc" value="1" />
-          <entry key="js" value="12" />
-          <entry key="json" value="6" />
+          <entry key="js" value="22" />
+          <entry key="json" value="7" />
           <entry key="lock" value="1" />
           <entry key="prettierignore" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="12" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="22" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="66" />
+          <entry key="js" value="251" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="66" />
+          <entry key="GraphQL" value="3" />
+          <entry key="JavaScript" value="248" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1167730737">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="7" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="526" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="GraphQL" value="16" />
+          <entry key="JavaScript" value="510" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gatsby-node.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1123">
+              <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="353">
+              <caret line="67" column="46" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#22#47#0" expanded="true" />
@@ -80,32 +125,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="-1123">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gatsby-node.js">
+        <entry file="file://$PROJECT_DIR$/src/components/ProductList/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="367">
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="647">
+              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/ProductPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="333">
+              <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#21#46#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ProductAttributes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphql.config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -114,9 +188,15 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>moltin</find>
-      <find>internal</find>
       <find>back</find>
+      <find>internal</find>
+      <find>products</find>
+      <find>product</find>
+      <find>allmoltinproduct</find>
+      <find>moltin</find>
+      <find>root</find>
+      <find>sharp</find>
+      <find>RootQueryType</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,11 +205,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/ProductList/index.js" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/src/components/ProductAttributes/index.js" />
+        <option value="$PROJECT_DIR$/src/components/ProductSummary/index.js" />
         <option value="$PROJECT_DIR$/gatsby-node.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/templates/ProductPage.js" />
+        <option value="$PROJECT_DIR$/src/components/ProductList/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
       </list>
     </option>
   </component>
@@ -162,6 +244,7 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -169,49 +252,55 @@
         <subPane>
           <expand>
             <path>
-              <item name="gatsby-starter-ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="gatsby-starter-ecommerce-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-ecommerce-1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gatsby-starter-ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="gatsby-starter-ecommerce-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-ecommerce-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gatsby-starter-ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="gatsby-starter-ecommerce-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-ecommerce-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gatsby-starter-ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="gatsby-starter-ecommerce-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-ecommerce-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ProductAttributes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gatsby-starter-ecommerce-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-ecommerce-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="ProductList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gatsby-starter-ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="gatsby-starter-ecommerce-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-ecommerce-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="ProductSummary" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gatsby-starter-ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="gatsby-starter-ecommerce-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-ecommerce-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gatsby-starter-ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="gatsby-starter-ecommerce-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-ecommerce-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="gatsby-starter-ecommerce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gatsby-starter-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="gatsby-starter-ecommerce-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gatsby-starter-ecommerce-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -233,7 +322,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,26 +346,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530760807034</updated>
-      <workItem from="1530760810399" duration="4845000" />
+      <workItem from="1530760810399" duration="6879000" />
+      <workItem from="1531162490596" duration="741000" />
+      <workItem from="1531263658729" duration="494000" />
+      <workItem from="1531266020202" duration="3552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4845000" />
+    <option name="totallyTimeSpent" value="11666000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08554687" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12559524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="GraphQL" weight="0.3295562" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2549575" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -284,10 +371,36 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="GraphQL" order="9" weight="0.2993197" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3041788" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.08554687" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="GraphQL" order="1" weight="0.3295562" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.2549575" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -299,101 +412,29 @@
     <entry file="file://$PROJECT_DIR$/.eslintrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProductSummary/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/.prettierignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/privacy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/myaccount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/gatsbyimage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-359" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql.config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphql.schema.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql.schema.json" />
     <entry file="file://$PROJECT_DIR$/src/pages/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ProductList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
@@ -402,38 +443,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/OrderItemList/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProductSummary/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CartItemList/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1123">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphql.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-node.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#22#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        <state relative-caret-position="43">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/ProductPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="333">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+          <folding>
+            <element signature="e#21#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProductAttributes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1123">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ProductList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="67" column="46" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#21#46#0" expanded="true" />
+            <element signature="e#22#47#0" expanded="true" />
           </folding>
         </state>
       </provider>

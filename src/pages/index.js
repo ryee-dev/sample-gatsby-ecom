@@ -5,14 +5,14 @@ import get from 'lodash/get'
 import { Image, Header } from 'semantic-ui-react'
 import Helmet from 'react-helmet'
 import ProductList from '../components/ProductList'
-import logo from '../images/ill-short-dark.svg'
+import logo from '../images/meowify_logo_v1.png'
 
 class StoreIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const products = get(this, 'props.data.allMoltinProduct.edges')
     const filterProductsWithoutImages = products.filter(
-      v => v.node.includedData.main_image
+      v => v.node.includedData.main_image.link.href
     )
     return (
       <div>
@@ -43,6 +43,7 @@ export const pageQuery = graphql`
           originalId
           name
           description
+          slug
           meta {
             display_price {
               with_tax {
@@ -55,6 +56,7 @@ export const pageQuery = graphql`
           includedData {
             main_image {
               id
+              type
               link {
                 href
               }
@@ -62,8 +64,8 @@ export const pageQuery = graphql`
           }
           mainImage {
             childImageSharp {
-              sizes(maxWidth: 600) {
-                ...GatsbyImageSharpSizes
+              resolutions("(max-width: 500px) 100vw, 500px") {
+                ...GatsbyImageSharpResolutions
               }
             }
           }

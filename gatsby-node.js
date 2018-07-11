@@ -17,6 +17,16 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               edges {
                 node {
                   originalId
+                  internal {
+                    type
+                  }
+                  includedData {
+                    main_image {
+                      link {
+                        href
+                      }
+                    }
+                  }
                 }
               }
             }

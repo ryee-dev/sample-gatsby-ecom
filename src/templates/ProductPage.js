@@ -9,7 +9,7 @@ class ProductPageTemplate extends React.PureComponent {
   render() {
     const productInfo = get(this, 'props.data.allMoltinProduct')
     const data = productInfo.edges[0].node
-    const slug = data.slug
+    // const slug = data.slug
     const image = get(data, 'includedData.main_image.link.href')
     const sizes = get(data, 'mainImage.childImageSharp.sizes')
     const product = {
@@ -41,6 +41,8 @@ export const pageQuery = graphql`
     allMoltinProduct(filter: { originalId: { eq: $originalId } }) {
       edges {
         node {
+          slug
+          sku
           originalId
           description
           meta {
@@ -66,8 +68,6 @@ export const pageQuery = graphql`
               }
             }
           }
-          slug
-          sku
         }
       }
     }
