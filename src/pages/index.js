@@ -56,7 +56,6 @@ export const pageQuery = graphql`
           includedData {
             main_image {
               id
-              type
               link {
                 href
               }
@@ -64,8 +63,8 @@ export const pageQuery = graphql`
           }
           mainImage {
             childImageSharp {
-              resolutions("(max-width: 500px) 100vw, 500px") {
-                ...GatsbyImageSharpResolutions
+              sizes(maxWidth: 600) {
+                ...GatsbyImageSharpSizes
               }
             }
           }
